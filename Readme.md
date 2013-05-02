@@ -11,7 +11,6 @@
 
 ## Todo
 
-  - CSS card flip component for extra details (pid etc)
   - memory usage
 
 ## License

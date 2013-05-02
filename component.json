@@ -8,7 +8,8 @@
   ],
   "dependencies": {
     "component/domify": "0.1.0",
-    "component/reactive": "0.11.0"
+    "component/reactive": "0.11.0",
+    "component/flipbox": "0.0.1"
   },
   "development": {},
   "license": "MIT",
