@@ -4,6 +4,7 @@
   display: inline-block;
   border: 1px solid #ddd;
   padding: 15px 40px;
+  background: white;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
