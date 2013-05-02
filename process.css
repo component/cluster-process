@@ -1,0 +1,33 @@
+
+.process {
+  font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: inline-block;
+  border: 1px solid #ddd;
+  padding: 15px 40px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.process span {
+  display: block;
+  width: 100%;
+}
+
+.process:hover .pid {
+  display: block;
+}
+
+.process .pid {
+  display: none;
+}
+
+.process .pid,
+.process .version {
+  font-size: 9px;
+  color: #888;
+}
+
+.process .hide {
+  display: none;
+}

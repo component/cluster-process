@@ -1,0 +1,23 @@
+{
+  "name": "cluster-process",
+  "repo": "component/cluster-process",
+  "description": "Cluster process",
+  "version": "0.0.1",
+  "keywords": [
+    "cluster"
+  ],
+  "dependencies": {
+    "component/domify": "0.1.0",
+    "component/reactive": "0.11.0"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "template.js"
+  ],
+  "styles": [
+    "process.css"
+  ]
+}

@@ -1,0 +1,1 @@
+module.exports = '<div class="process">\n  <span class="name" data-text="name"></span>\n  <span class="version" data-show="version" data-text="version"></span>\n  <span class="pid" data-text="pid"></span>\n</div>\n';
