@@ -3,8 +3,10 @@
   font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
   display: inline-block;
   border: 1px solid #ddd;
-  padding: 15px 40px;
+  padding: 15px 0;
   background: white;
+  width: 125px;
+  text-align: center;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
