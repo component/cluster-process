@@ -28,7 +28,21 @@ function Process(obj) {
   var el = domify(html);
   reactive(el, obj, this);
   this.el = flip(el);
+  this.peers = [];
 }
+
+/**
+ * Add peer `proc.
+ *
+ * @param {Process} proc
+ * @return {Process} self
+ * @api public
+ */
+
+Process.prototype.addPeer = function(proc){
+  this.peers.push(proc);
+  return this;
+};
 
 /**
  * Flip onclick.
